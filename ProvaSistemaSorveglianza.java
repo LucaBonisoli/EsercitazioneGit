@@ -11,7 +11,10 @@ public class ProvaSistemaSorveglianza {
 		System.out.println(tmp.toString());
 		boolean tmp2= s1.cancella(02);
 		System.out.println(s1.Elenco());
-
+		
+		TelecameraIP t1= new TelecameraIP(01,"cucina","103.40.30");
+		TelecameraTVCC t2= new TelecameraTVCC(02,"Ingresso", 20);
+		SistemaSorveglianza s1= new SistemaSorveglianza(10);
 	}
 
 }
